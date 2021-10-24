@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="My First Test">
+        <classes>
+            <class name="com.first.test.AllureTest">
+                <methods>
+                    <include name="userCanSearchAnyKeyword"/>
+                </methods>
+            </class>
+            <class name="com.first.test.GoogleTest">
+                <methods>
+                    <include name="googleTest"/>
+                </methods>
+            </class>
+            <class name="com.first.test.LaunchAnyBrowser">
+                <methods>
+                    <include name="football"/>
+                    <include name="summary"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

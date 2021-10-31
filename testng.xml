@@ -13,7 +13,7 @@
                     <include name="googleTest"/>
                 </methods>
             </class>
-            <class name="com.first.test.LaunchAnyBrowser">
+            <class name="com.first.test.LaunchAnyBrowserTest">
                 <methods>
                     <include name="football"/>
                     <include name="summary"/>
